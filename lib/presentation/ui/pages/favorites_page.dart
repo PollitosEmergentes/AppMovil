@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:peru_stars_mobile/ui/widgets/artwork_card.dart';
+
+import '../widgets/artwork_card.dart';
+
 
 class FavoritesPage extends StatelessWidget {
   const FavoritesPage({Key? key}) : super(key: key);

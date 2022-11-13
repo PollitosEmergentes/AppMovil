@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:peru_stars_mobile/ui/widgets/SideBar.dart';
-import 'package:peru_stars_mobile/ui/widgets/artwork_card.dart';
 
 import '../widgets/BottomBar.dart';
 import '../widgets/NavBar.dart';
+import '../widgets/SideBar.dart';
 import '../widgets/artist_card.dart';
+import '../widgets/artwork_card.dart';
 
 class ProfilePage extends StatefulWidget {
 

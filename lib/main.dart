@@ -1,15 +1,13 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:peru_stars_mobile/services/artists-api.service.dart';
-import 'package:peru_stars_mobile/services/hobbyists-api.service.dart';
-import 'package:peru_stars_mobile/services/mini-storage.dart' as storage;
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:peru_stars_mobile/ui/pages/home_page.dart';
-import 'package:peru_stars_mobile/ui/pages/login_page.dart';
-import 'package:peru_stars_mobile/ui/pages/profile_page.dart';
-import 'ui/widgets/BottomBar.dart';
-import 'package:flutter_native_splash/flutter_native_splash.dart';
+import 'package:peru_stars_mobile/presentation/ui/pages/home_page.dart';
+import 'package:peru_stars_mobile/presentation/ui/pages/login_page.dart';
+import 'package:peru_stars_mobile/presentation/ui/pages/profile_page.dart';
+import 'package:peru_stars_mobile/domain/service/artists-api.service.dart';
+import 'package:peru_stars_mobile/domain/service/hobbyists-api.service.dart';
+import 'package:peru_stars_mobile/domain/service/mini-storage.dart' as storage;
+
 
 void main() {
   runApp(MyApp());
@@ -87,7 +85,7 @@ class _SplashScreenState extends State<SplashScreen> {
           } else {
             log("no está logueado");
             Navigator.of(context).pushReplacement(
-                MaterialPageRoute(builder: (context) => LoginPage()));
+                MaterialPageRoute(builder: (context) => const LoginPage()));
           }
         });
       } else {

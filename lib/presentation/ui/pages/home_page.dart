@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:peru_stars_mobile/ui/widgets/BottomBar.dart';
+
+import '../widgets/BottomBar.dart';
+
+
+
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);

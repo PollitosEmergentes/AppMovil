@@ -1,20 +1,19 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:peru_stars_mobile/services/mini-storage.dart' as storage;
+import 'package:peru_stars_mobile/presentation/ui/pages/profile_page.dart';
+import 'package:peru_stars_mobile/presentation/ui/pages/register_page.dart';
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:google_fonts/google_fonts.dart';
-// ignore: import_of_legacy_library_into_null_safe
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:peru_stars_mobile/main.dart';
-import 'package:peru_stars_mobile/models/user.dart';
-import 'package:peru_stars_mobile/services/artists-api.service.dart';
-import 'package:peru_stars_mobile/services/hobbyists-api.service.dart';
-import 'package:peru_stars_mobile/services/users-api.service.dart';
-import 'package:peru_stars_mobile/ui/pages/profile_page.dart';
-import 'package:peru_stars_mobile/ui/pages/register_page.dart';
-import 'package:peru_stars_mobile/ui/widgets/login_background.dart';
 
+import 'package:peru_stars_mobile/domain/model/user.dart';
+import 'package:peru_stars_mobile/domain/service/artists-api.service.dart';
+import 'package:peru_stars_mobile/domain/service/hobbyists-api.service.dart';
+import 'package:peru_stars_mobile/domain/service/users-api.service.dart';
+
+
+import '../widgets/login_background.dart';
 import 'home_page.dart';
 
 class LoginPage extends StatefulWidget {

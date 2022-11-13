@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:peru_stars_mobile/models/artist.dart';
+import 'package:peru_stars_mobile/domain/model/artist.dart';
 
 class SearchViewDelegate extends SearchDelegate<Artist> {
   final List<Artist> artists;

@@ -1,10 +1,10 @@
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:dio/dio.dart';
 
-import 'mini-storage.dart' as storage;
-import 'http-common.dart' as http;
+import '../../domain/service/mini-storage.dart' as storage;
+import '../../domain/service/http-common.dart' as http;
 
-import 'package:peru_stars_mobile/models/user.dart';
+import 'package:peru_stars_mobile/domain/model/user.dart';
 
 class UserApiService {
   // REGISTER

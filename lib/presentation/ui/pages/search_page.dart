@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:peru_stars_mobile/models/artist.dart';
-import 'package:peru_stars_mobile/ui/pages/search_view_delegate.dart';
-import 'package:peru_stars_mobile/ui/widgets/artwork_card.dart';
-import 'package:peru_stars_mobile/ui/widgets/artist_card.dart';
+import 'package:peru_stars_mobile/domain/model/artist.dart';
+import 'package:peru_stars_mobile/presentation/ui/pages/search_view_delegate.dart';
+
+import '../widgets/artist_card.dart';
+import '../widgets/artwork_card.dart';
+
 
 class Data {
   String name;

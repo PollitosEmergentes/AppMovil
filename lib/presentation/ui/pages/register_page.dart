@@ -6,12 +6,11 @@ import 'package:google_fonts/google_fonts.dart';
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:peru_stars_mobile/main.dart';
-import 'package:peru_stars_mobile/ui/pages/login_page.dart';
-import 'package:peru_stars_mobile/ui/pages/privacy_policy_page.dart';
-import 'package:peru_stars_mobile/ui/pages/terms_and_conditions_page.dart';
-import 'package:peru_stars_mobile/ui/widgets/login_background.dart';
-
+import 'package:peru_stars_mobile/presentation/ui/pages/privacy_policy_page.dart';
+import 'package:peru_stars_mobile/presentation/ui/pages/terms_and_conditions_page.dart';
+import '../widgets/login_background.dart';
 import 'home_page.dart';
+import 'login_page.dart';
 
 class RegisterPage extends StatefulWidget {
   const RegisterPage({Key? key}) : super(key: key);

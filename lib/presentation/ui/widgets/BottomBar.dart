@@ -1,12 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import 'package:peru_stars_mobile/ui/pages/artwork_page.dart';
-import 'package:peru_stars_mobile/ui/pages/favorites_page.dart';
-import 'package:peru_stars_mobile/ui/pages/home_amateur.dart';
-import 'package:peru_stars_mobile/ui/pages/search_page.dart';
-import 'package:peru_stars_mobile/ui/widgets/NavBar.dart';
-import 'package:peru_stars_mobile/ui/widgets/SideBar.dart';
+import 'package:peru_stars_mobile/presentation/ui/widgets/NavBar.dart';
+import 'package:peru_stars_mobile/presentation/ui/widgets/SideBar.dart';
+import '../pages/favorites_page.dart';
+import '../pages/home_amateur.dart';
+import '../pages/search_page.dart';
 
 class BottomNavBar extends StatefulWidget {
   const BottomNavBar({Key? key}) : super(key: key);

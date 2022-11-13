@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:peru_stars_mobile/ui/widgets/artist_card.dart';
-import 'package:peru_stars_mobile/ui/widgets/artwork_card.dart';
-import 'package:peru_stars_mobile/ui/widgets/list_artist.dart';
+
+import '../widgets/artwork_card.dart';
+import '../widgets/list_artist.dart';
 
 class HomeAmateur extends StatefulWidget {
   const HomeAmateur({Key? key}) : super(key: key);

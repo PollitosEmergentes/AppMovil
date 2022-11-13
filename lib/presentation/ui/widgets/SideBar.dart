@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:peru_stars_mobile/ui/pages/login_page.dart';
-import 'package:peru_stars_mobile/services/mini-storage.dart' as storage;
+import 'package:peru_stars_mobile/domain/service/mini-storage.dart' as storage;
 
+import '../pages/login_page.dart';
 import '../pages/profile_page.dart';
 
 class SideBar extends StatelessWidget {
